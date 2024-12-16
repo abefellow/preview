@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f993f550c0e14b26bb6f1252c1f2b892, type: 3}
+  m_Name: AffiseEditorConfig
+  m_EditorClassIdentifier: 
+  modules:
+  - name: Advertising
+    android: 1
+    ios: 1
+    androidModule: 1
+    iosModule: 1
+  - name: AndroidId
+    android: 1
+    ios: 0
+    androidModule: 1
+    iosModule: 0
+  - name: Huawei
+    android: 0
+    ios: 0
+    androidModule: 1
+    iosModule: 0
+  - name: Link
+    android: 1
+    ios: 1
+    androidModule: 1
+    iosModule: 1
+  - name: Network
+    android: 1
+    ios: 0
+    androidModule: 1
+    iosModule: 0
+  - name: Phone
+    android: 1
+    ios: 0
+    androidModule: 1
+    iosModule: 0
+  - name: RuStore
+    android: 0
+    ios: 0
+    androidModule: 1
+    iosModule: 0
+  - name: Status
+    android: 1
+    ios: 1
+    androidModule: 1
+    iosModule: 1
+  - name: Subscription
+    android: 1
+    ios: 1
+    androidModule: 1
+    iosModule: 1
+  ios:
+    nsUserTrackingUsageDescription: 
+  deeplinksEnabled: 0
+  deeplinks: []

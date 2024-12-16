@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dda679c2914762847bdc1127f7a2aa1d, type: 3}
+  m_Name: Levels
+  m_EditorClassIdentifier: 
+  levelDatas:
+  - gameType: 0
+    visuals: {fileID: 11400000, guid: be1e24e2e86ba2042a0eea90a8029cf1, type: 2}
+    gridSize: 4
+    moneyWin: 100
+  - gameType: 1
+    visuals: {fileID: 11400000, guid: 83923636225e57f4aabe61e48e47e1e9, type: 2}
+    gridSize: 4
+    moneyWin: 200
+  - gameType: 2
+    visuals: {fileID: 11400000, guid: a940019a9e4bcf649a8b7ae81d85929c, type: 2}
+    gridSize: 4
+    moneyWin: 300
+  - gameType: 0
+    visuals: {fileID: 11400000, guid: 5063da91612654d4fb50363c046df7ce, type: 2}
+    gridSize: 5
+    moneyWin: 500
+  - gameType: 1
+    visuals: {fileID: 11400000, guid: 5063da91612654d4fb50363c046df7ce, type: 2}
+    gridSize: 6
+    moneyWin: 500
+  - gameType: 2
+    visuals: {fileID: 11400000, guid: 5063da91612654d4fb50363c046df7ce, type: 2}
+    gridSize: 6
+    moneyWin: 700
+  - gameType: 0
+    visuals: {fileID: 11400000, guid: 6112d9ae38e773e4a9e90f74297c980c, type: 2}
+    gridSize: 6
+    moneyWin: 800
+  - gameType: 1
+    visuals: {fileID: 11400000, guid: 5ed3f76b71b195c4dbf441324ad808fb, type: 2}
+    gridSize: 4
+    moneyWin: 1000
+  - gameType: 2
+    visuals: {fileID: 11400000, guid: be1e24e2e86ba2042a0eea90a8029cf1, type: 2}
+    gridSize: 6
+    moneyWin: 1300
